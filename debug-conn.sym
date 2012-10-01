@@ -1,0 +1,100 @@
+v 20110115 2
+T 700 0 8 10 1 1 0 0 1
+refdes=CONN?
+T 300 200 8 10 0 1 0 0 1
+description=conn_2x5
+T 300 400 8 10 0 1 0 0 1
+footprint=FOOTPRINT_NAME_HERE
+T 300 600 8 10 0 1 0 0 1
+device=conn
+B 800 200 500 2700 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 300 3000 8 10 1 1 0 0 1
+device=Debug Conn
+P 400 2600 900 2600 1 0 0
+{
+T 400 2600 5 10 0 0 180 0 1
+pintype=io
+T 955 2595 5 10 0 1 0 0 1
+pinlabel=unknown
+T 705 2645 5 10 1 1 0 6 1
+pinnumber=VCC
+T 400 2600 5 10 0 0 180 0 1
+pinseq=1
+}
+P 400 2300 900 2300 1 0 0
+{
+T 400 2300 5 10 0 0 180 0 1
+pintype=io
+T 955 2295 5 10 0 1 0 0 1
+pinlabel=unknown
+T 705 2345 5 10 1 1 0 6 1
+pinnumber=GND
+T 400 2300 5 10 0 0 180 0 1
+pinseq=2
+}
+P 400 2000 900 2000 1 0 0
+{
+T 400 2000 5 10 0 0 180 0 1
+pintype=io
+T 955 1995 5 10 0 1 0 0 1
+pinlabel=unknown
+T 805 2045 5 10 1 1 0 6 1
+pinnumber=NRST
+T 400 2000 5 10 0 0 180 0 1
+pinseq=3
+}
+P 400 1700 900 1700 1 0 0
+{
+T 400 1700 5 10 0 0 180 0 1
+pintype=io
+T 955 1695 5 10 0 1 0 0 1
+pinlabel=unknown
+T 805 1745 5 10 1 1 0 6 1
+pinnumber=TRST
+T 400 1700 5 10 0 0 180 0 1
+pinseq=4
+}
+P 400 1400 900 1400 1 0 0
+{
+T 400 1400 5 10 0 0 180 0 1
+pintype=io
+T 955 1395 5 10 0 1 0 0 1
+pinlabel=unknown
+T 605 1445 5 10 1 1 0 6 1
+pinnumber=TDI
+T 400 1400 5 10 0 0 180 0 1
+pinseq=5
+}
+P 400 1100 900 1100 1 0 0
+{
+T 400 1100 5 10 0 0 180 0 1
+pintype=io
+T 955 1095 5 10 0 1 0 0 1
+pinlabel=unknown
+T 705 1145 5 10 1 1 0 6 1
+pinnumber=TDO
+T 400 1100 5 10 0 0 180 0 1
+pinseq=6
+}
+P 400 800 900 800 1 0 0
+{
+T 400 800 5 10 0 0 180 0 1
+pintype=io
+T 955 795 5 10 0 1 0 0 1
+pinlabel=unknown
+T 705 845 5 10 1 1 0 6 1
+pinnumber=TMS
+T 400 800 5 10 0 0 180 0 1
+pinseq=7
+}
+P 400 500 900 500 1 0 0
+{
+T 400 500 5 10 0 0 180 0 1
+pintype=io
+T 955 495 5 10 0 1 0 0 1
+pinlabel=unknown
+T 705 545 5 10 1 1 0 6 1
+pinnumber=TCK
+T 400 500 5 10 0 0 180 0 1
+pinseq=8
+}
