@@ -1,12 +1,8 @@
 v 20110115 2
 T 700 0 8 10 1 1 0 0 1
 refdes=CONN?
-T 300 200 8 10 0 1 0 0 1
-description=conn_2x5
 T 300 400 8 10 0 1 0 0 1
 footprint=FOOTPRINT_NAME_HERE
-T 300 600 8 10 0 1 0 0 1
-device=conn
 B 800 200 500 2700 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 300 3000 8 10 1 1 0 0 1
 device=Debug Conn
