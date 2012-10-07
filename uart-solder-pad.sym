@@ -1,0 +1,52 @@
+v 20110115 2
+T 700 0 8 10 1 1 0 0 1
+refdes=CONN?
+T 300 400 8 10 0 1 0 0 1
+footprint=FOOTPRINT_NAME_HERE
+B 800 200 400 1300 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 800 1600 8 10 1 1 0 0 1
+device=UART
+P 400 1300 900 1300 1 0 0
+{
+T 400 1300 5 10 0 0 180 0 1
+pintype=io
+T 955 1295 5 10 0 1 0 0 1
+pinlabel=unknown
+T 705 1345 5 10 1 1 0 6 1
+pinnumber=VCC
+T 400 1300 5 10 0 0 180 0 1
+pinseq=1
+}
+P 400 1000 900 1000 1 0 0
+{
+T 400 1000 5 10 0 0 180 0 1
+pintype=io
+T 955 995 5 10 0 1 0 0 1
+pinlabel=unknown
+T 705 1045 5 10 1 1 0 6 1
+pinnumber=GND
+T 400 1000 5 10 0 0 180 0 1
+pinseq=2
+}
+P 400 700 900 700 1 0 0
+{
+T 400 700 5 10 0 0 180 0 1
+pintype=io
+T 955 695 5 10 0 1 0 0 1
+pinlabel=unknown
+T 605 745 5 10 1 1 0 6 1
+pinnumber=TX
+T 400 700 5 10 0 0 180 0 1
+pinseq=3
+}
+P 400 400 900 400 1 0 0
+{
+T 400 400 5 10 0 0 180 0 1
+pintype=io
+T 955 395 5 10 0 1 0 0 1
+pinlabel=unknown
+T 605 445 5 10 1 1 0 6 1
+pinnumber=RX
+T 400 400 5 10 0 0 180 0 1
+pinseq=4
+}
