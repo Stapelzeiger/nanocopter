@@ -483,7 +483,7 @@ footprint=0603
 T 69900 41300 5 10 0 1 270 0 1
 device=capacitor
 T 69795 41400 5 10 1 1 0 0 1
-refdes=C6
+refdes=C?
 T 69795 41000 5 10 1 1 0 0 1
 value=??pF
 }
@@ -494,7 +494,7 @@ footprint=0603
 T 70500 41300 5 10 0 1 270 0 1
 device=capacitor
 T 70395 41400 5 10 1 1 0 0 1
-refdes=C7
+refdes=C?
 T 70295 41000 5 10 1 1 0 0 1
 value=??pF
 }
@@ -503,7 +503,7 @@ C 69600 41600 1 0 0 ABM10-crystal.sym
 T 69700 42300 5 10 0 0 0 0 1
 device=CRYSTAL
 T 69674 41956 5 10 1 1 0 0 1
-refdes=XTL1
+refdes=XTL?
 T 69595 41600 5 10 0 1 0 0 1
 footprint=ABM10-crystal
 T 69600 42200 5 10 1 1 0 0 1
@@ -1867,7 +1867,7 @@ C 43200 62500 1 0 0 LTC2955-2-TS8.sym
 T 44700 64100 5 10 1 1 0 0 1
 refdes=U?
 T 43500 62900 5 10 0 1 0 0 1
-footprint=FOOTPRINT_NAME_HERE
+footprint=LTC2955-TSOT-23-8
 T 43300 64100 5 10 1 1 0 0 1
 device=LTC2955 ITS8-2
 }
