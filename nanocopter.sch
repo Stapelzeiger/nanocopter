@@ -3346,7 +3346,7 @@ C 64800 65400 1 0 0 uart-console.sym
 T 65500 65400 5 10 1 1 0 0 1
 refdes=CONN?
 T 65100 65800 5 10 0 1 0 0 1
-footprint=FOOTPRINT_NAME_HERE
+footprint=Molex-PicoBlade-SMD-4
 T 65600 67000 5 10 1 1 0 0 1
 device=UART
 }
