@@ -1101,7 +1101,7 @@ C 62300 68100 1 0 0 debug-conn.sym
 T 63000 68100 5 10 1 1 0 0 1
 refdes=CONN?
 T 62600 68500 5 10 0 1 0 0 1
-footprint=FOOTPRINT_NAME_HERE
+footprint=Molex-PicoBlade-SMD-8
 T 62600 68700 5 10 0 1 0 0 1
 device=conn
 T 62600 71100 5 10 1 1 0 0 1
