@@ -981,9 +981,7 @@ T 73800 68700 5 10 1 1 0 0 1
 refdes=CONN1
 T 73800 69000 5 10 0 1 0 0 1
 footprint=FOOTPRINT_NAME_HERE
-T 73800 69200 5 10 1 1 0 0 1
-device=micro USB
-T 73600 70900 5 10 1 1 0 0 1
+T 73700 71100 5 10 1 1 0 0 1
 device=micro USB
 }
 C 72900 67900 1 0 0 capacitor.sym
@@ -2071,6 +2069,8 @@ T 47000 64800 5 10 1 1 90 0 1
 refdes=Q1
 T 46400 64100 5 10 1 1 0 0 1
 model=Si1443EDH
+T 47600 64100 5 10 0 0 0 0 1
+footprint=SC70_6_FET_DDGSDD
 }
 B 42000 60500 6000 4900 12 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 46200 65500 12 10 1 0 0 0 1
@@ -3080,7 +3080,7 @@ refdes=Q2
 T 46395 51195 5 10 1 1 0 0 1
 device=Si1958DH
 T 45600 51000 5 10 0 1 0 0 1
-footprint=SOT-363-6
+footprint=SC70_6
 }
 C 51600 51000 1 0 0 Si1958DH.sym
 {
@@ -3091,7 +3091,7 @@ device=Si1958DH
 T 51600 51000 5 10 0 0 0 0 1
 slot=2
 T 51600 51000 5 10 0 1 0 0 1
-footprint=SOT-363-6
+footprint=SC70_6
 }
 C 50700 51400 1 0 0 resistor-2.sym
 {
@@ -3218,7 +3218,7 @@ refdes=Q5
 T 46395 47195 5 10 1 1 0 0 1
 device=Si1958DH
 T 45600 47000 5 10 0 1 0 0 1
-footprint=SOT-363-6
+footprint=SC70_6
 }
 C 51600 47000 1 0 0 Si1958DH.sym
 {
@@ -3229,7 +3229,7 @@ device=Si1958DH
 T 51600 47000 5 10 0 0 0 0 1
 slot=2
 T 51600 47000 5 10 0 1 0 0 1
-footprint=SOT-363-6
+footprint=SC70_6
 }
 C 50700 47400 1 0 0 resistor-2.sym
 {
@@ -3356,7 +3356,7 @@ refdes=Q8
 T 46395 43195 5 10 1 1 0 0 1
 device=Si1958DH
 T 45600 43000 5 10 0 1 0 0 1
-footprint=SOT-363-6
+footprint=SC70_6
 }
 C 51600 43000 1 0 0 Si1958DH.sym
 {
@@ -3367,7 +3367,7 @@ device=Si1958DH
 T 51600 43000 5 10 0 0 0 0 1
 slot=2
 T 51600 43000 5 10 0 1 0 0 1
-footprint=SOT-363-6
+footprint=SC70_6
 }
 C 50700 43400 1 0 0 resistor-2.sym
 {
