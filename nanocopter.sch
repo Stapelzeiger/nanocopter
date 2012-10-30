@@ -1874,7 +1874,7 @@ refdes=U9
 T 54695 69200 5 10 1 1 0 0 1
 device=bq24092
 T 54395 67400 5 10 0 1 0 0 1
-footprint=FOOTPRINT_NAME_HERE
+footprint=MSOP10-PowerPad
 }
 C 48200 66900 1 0 0 INA220.sym
 {
