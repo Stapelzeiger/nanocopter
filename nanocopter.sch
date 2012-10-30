@@ -1185,7 +1185,7 @@ C 46100 50600 1 0 0 GND.sym
 T 46395 52300 5 10 0 1 0 0 1
 device=none
 }
-C 47500 52100 1 90 0 diode-2.sym
+C 47500 52100 1 90 0 schottky-diode-1.sym
 {
 T 46900 52500 5 10 0 0 90 0 1
 device=DIODE
@@ -2988,7 +2988,7 @@ C 65900 68300 1 0 0 GND.sym
 T 66195 70000 5 10 0 1 0 0 1
 device=none
 }
-C 54400 59600 1 0 0 diode-2.sym
+C 54400 59600 1 0 0 schottky-diode-1.sym
 {
 T 54800 60200 5 10 0 0 0 0 1
 device=DIODE
@@ -3116,7 +3116,7 @@ C 52100 50600 1 0 0 GND.sym
 T 52395 52300 5 10 0 1 0 0 1
 device=none
 }
-C 53500 52100 1 90 0 diode-2.sym
+C 53500 52100 1 90 0 schottky-diode-1.sym
 {
 T 52900 52500 5 10 0 0 90 0 1
 device=DIODE
@@ -3177,7 +3177,7 @@ C 46100 46600 1 0 0 GND.sym
 T 46395 48300 5 10 0 1 0 0 1
 device=none
 }
-C 47500 48100 1 90 0 diode-2.sym
+C 47500 48100 1 90 0 schottky-diode-1.sym
 {
 T 46900 48500 5 10 0 0 90 0 1
 device=DIODE
@@ -3254,7 +3254,7 @@ C 52100 46600 1 0 0 GND.sym
 T 52395 48300 5 10 0 1 0 0 1
 device=none
 }
-C 53500 48100 1 90 0 diode-2.sym
+C 53500 48100 1 90 0 schottky-diode-1.sym
 {
 T 52900 48500 5 10 0 0 90 0 1
 device=DIODE
@@ -3315,7 +3315,7 @@ C 46100 42600 1 0 0 GND.sym
 T 46395 44300 5 10 0 1 0 0 1
 device=none
 }
-C 47500 44100 1 90 0 diode-2.sym
+C 47500 44100 1 90 0 schottky-diode-1.sym
 {
 T 46900 44500 5 10 0 0 90 0 1
 device=DIODE
@@ -3392,7 +3392,7 @@ C 52100 42600 1 0 0 GND.sym
 T 52395 44300 5 10 0 1 0 0 1
 device=none
 }
-C 53500 44100 1 90 0 diode-2.sym
+C 53500 44100 1 90 0 schottky-diode-1.sym
 {
 T 52900 44500 5 10 0 0 90 0 1
 device=DIODE
@@ -3609,7 +3609,7 @@ value=10uH
 T 51900 59800 5 10 0 1 0 0 1
 footprint=TODO
 }
-C 53600 62100 1 0 0 diode-2.sym
+C 53600 62100 1 0 0 schottky-diode-1.sym
 {
 T 54000 62700 5 10 0 0 0 0 1
 device=DIODE
