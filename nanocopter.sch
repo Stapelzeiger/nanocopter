@@ -43,7 +43,7 @@ device=M24CXX
 T 73295 62700 5 10 1 1 0 0 1
 refdes=U5
 T 71495 61200 5 10 0 1 0 0 1
-footprint=FOOTPRINT_NAME_HERE
+footprint=TSSOP-8
 }
 T 80400 40800 15 24 1 0 0 0 1
 nanocopter
@@ -2531,7 +2531,7 @@ C 66000 68200 1 0 0 expansion-conn.sym
 T 66400 68200 5 10 1 1 0 0 1
 refdes=CONN3
 T 66300 68600 5 10 0 1 0 0 1
-footprint=FOOTPRINT_NAME_HERE
+footprint=Molex-SlimStack-plug-1.5mm-16
 T 66000 71000 5 10 1 1 0 0 1
 device=EXPANSION_CONN
 }
