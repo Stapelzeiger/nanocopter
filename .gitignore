@@ -1,0 +1,5 @@
+*.new.pcb
+*.net
+*.cmd
+*.pcb-
+*.pcb.bak*
