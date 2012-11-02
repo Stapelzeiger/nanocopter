@@ -7,7 +7,7 @@ device=HMC5883L
 T 81495 62800 5 10 1 1 0 0 1
 refdes=U1
 T 79695 60100 5 10 0 1 0 0 1
-footprint=FOOTPRINT_NAME_HERE
+footprint=LCC-16-3-w
 }
 C 79600 64000 1 0 0 MPU-6050.sym
 {
@@ -16,7 +16,7 @@ device=MPU-6050
 T 81695 67300 5 10 1 1 0 0 1
 refdes=U2
 T 79595 64000 5 10 0 1 0 0 1
-footprint=QFN24_4
+footprint=QFN-24-4-w
 }
 C 79800 68000 1 0 0 MS5611.sym
 {
@@ -980,7 +980,7 @@ C 73500 68600 1 0 0 micro-usb.sym
 T 73800 68700 5 10 1 1 0 0 1
 refdes=CONN1
 T 73800 69000 5 10 0 1 0 0 1
-footprint=usb-rec-micro-AB-rev-smd-1
+footprint=usb-rec-micro-AB-smd-1
 T 73700 71100 5 10 1 1 0 0 1
 device=micro USB
 }
