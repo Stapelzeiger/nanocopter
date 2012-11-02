@@ -845,7 +845,7 @@ refdes=D1
 T 83100 52500 5 10 1 1 0 0 1
 description=nRF active LED
 T 83100 52400 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 C 82900 54000 1 0 0 Label.sym
 {
@@ -1140,7 +1140,7 @@ refdes=D2
 T 77500 69500 5 10 1 1 0 0 1
 description=Sensor LED
 T 77500 69400 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 C 77300 71100 1 0 0 Label.sym
 {
@@ -1654,7 +1654,7 @@ refdes=D4
 T 43500 66400 5 10 1 1 0 0 1
 description=Power Status
 T 43500 66300 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 C 43500 67000 1 90 0 resistor-2.sym
 {
@@ -1820,7 +1820,7 @@ refdes=D5
 T 63300 61200 5 10 1 1 0 0 1
 description=Status
 T 63300 61100 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 C 63100 62700 1 0 0 Label.sym
 {
@@ -3548,7 +3548,7 @@ N 82900 55400 82900 55600 4
 C 81700 56000 1 0 0 capacitor.sym
 {
 T 82000 56400 5 10 0 1 0 0 1
-footprint=0603
+footprint=CAPC1005N
 T 82000 56600 5 10 0 1 0 0 1
 device=capacitor
 T 81695 56500 5 10 1 1 0 0 1
@@ -3559,7 +3559,7 @@ value=1.5pF
 C 82600 56200 1 270 0 capacitor.sym
 {
 T 83000 55900 5 10 0 1 270 0 1
-footprint=0603
+footprint=CAPC1005N
 T 83200 55900 5 10 0 1 270 0 1
 device=capacitor
 T 83095 55900 5 10 1 1 0 0 1
