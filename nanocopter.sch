@@ -1173,14 +1173,7 @@ device=DC_MOTOR
 T 46400 52500 5 10 1 1 0 0 1
 refdes=M1
 T 46000 52000 5 10 0 1 0 0 1
-footprint=Pads_2.54_2
-}
-C 46100 52900 1 0 0 Vcc.sym
-{
-T 46395 54600 5 10 0 1 0 0 1
-device=none
-T 46100 53350 5 6 1 1 0 0 1
-value=V_Batt
+footprint=motor_pads
 }
 C 46100 50600 1 0 0 GND.sym
 {
@@ -2015,7 +2008,7 @@ refdes=R18
 T 43100 69000 5 10 1 1 0 0 1
 value=10k
 T 42900 69200 5 10 0 1 0 0 1
-footprint=Pads_2.54_2
+footprint=motor_pads
 }
 N 57100 70400 57100 68800 4
 N 57100 68800 56600 68800 4
@@ -3103,14 +3096,7 @@ device=DC_MOTOR
 T 52400 52500 5 10 1 1 0 0 1
 refdes=M2
 T 52000 52000 5 10 0 1 0 0 1
-footprint=Pads_2.54_2
-}
-C 52100 52900 1 0 0 Vcc.sym
-{
-T 52395 54600 5 10 0 1 0 0 1
-device=none
-T 52100 53350 5 6 1 1 0 0 1
-value=V_Batt
+footprint=motor_pads
 }
 C 52100 50600 1 0 0 GND.sym
 {
@@ -3164,14 +3150,7 @@ device=DC_MOTOR
 T 46400 48500 5 10 1 1 0 0 1
 refdes=M3
 T 46000 48000 5 10 0 1 0 0 1
-footprint=Pads_2.54_2
-}
-C 46100 48900 1 0 0 Vcc.sym
-{
-T 46395 50600 5 10 0 1 0 0 1
-device=none
-T 46100 49350 5 6 1 1 0 0 1
-value=V_Batt
+footprint=motor_pads
 }
 C 46100 46600 1 0 0 GND.sym
 {
@@ -3236,14 +3215,7 @@ device=DC_MOTOR
 T 52400 48500 5 10 1 1 0 0 1
 refdes=M4
 T 52000 48000 5 10 0 1 0 0 1
-footprint=Pads_2.54_2
-}
-C 52100 48900 1 0 0 Vcc.sym
-{
-T 52395 50600 5 10 0 1 0 0 1
-device=none
-T 52100 49350 5 6 1 1 0 0 1
-value=V_Batt
+footprint=motor_pads
 }
 C 52100 46600 1 0 0 GND.sym
 {
@@ -3297,14 +3269,7 @@ device=DC_MOTOR
 T 46400 44500 5 10 1 1 0 0 1
 refdes=M5
 T 46000 44000 5 10 0 1 0 0 1
-footprint=Pads_2.54_2
-}
-C 46100 44900 1 0 0 Vcc.sym
-{
-T 46395 46600 5 10 0 1 0 0 1
-device=none
-T 46100 45350 5 6 1 1 0 0 1
-value=V_Batt
+footprint=motor_pads
 }
 C 46100 42600 1 0 0 GND.sym
 {
@@ -3369,14 +3334,7 @@ device=DC_MOTOR
 T 52400 44500 5 10 1 1 0 0 1
 refdes=M6
 T 52000 44000 5 10 0 1 0 0 1
-footprint=Pads_2.54_2
-}
-C 52100 44900 1 0 0 Vcc.sym
-{
-T 52395 46600 5 10 0 1 0 0 1
-device=none
-T 52100 45350 5 6 1 1 0 0 1
-value=V_Batt
+footprint=motor_pads
 }
 C 52100 42600 1 0 0 GND.sym
 {
@@ -3689,4 +3647,58 @@ T 60800 58295 5 10 1 1 90 0 1
 refdes=C49
 T 60800 58695 5 10 1 1 90 0 1
 value=0.1uF
+}
+C 46100 52900 1 0 0 Vcc_Label.sym
+{
+T 46395 54600 5 10 0 1 0 0 1
+device=none
+T 46300 53200 5 10 0 0 0 0 1
+net=V_BAT:1
+T 46100 53350 5 6 1 1 0 0 1
+value=V_BAT
+}
+C 52100 52900 1 0 0 Vcc_Label.sym
+{
+T 52395 54600 5 10 0 1 0 0 1
+device=none
+T 52300 53200 5 10 0 0 0 0 1
+net=V_BAT:1
+T 52100 53350 5 6 1 1 0 0 1
+value=V_BAT
+}
+C 52100 48900 1 0 0 Vcc_Label.sym
+{
+T 52395 50600 5 10 0 1 0 0 1
+device=none
+T 52300 49200 5 10 0 0 0 0 1
+net=V_BAT:1
+T 52100 49350 5 6 1 1 0 0 1
+value=V_BAT
+}
+C 46100 48900 1 0 0 Vcc_Label.sym
+{
+T 46395 50600 5 10 0 1 0 0 1
+device=none
+T 46300 49200 5 10 0 0 0 0 1
+net=V_BAT:1
+T 46100 49350 5 6 1 1 0 0 1
+value=V_BAT
+}
+C 52100 44900 1 0 0 Vcc_Label.sym
+{
+T 52395 46600 5 10 0 1 0 0 1
+device=none
+T 52300 45200 5 10 0 0 0 0 1
+net=V_BAT:1
+T 52100 45350 5 6 1 1 0 0 1
+value=V_BAT
+}
+C 46100 44900 1 0 0 Vcc_Label.sym
+{
+T 46395 46600 5 10 0 1 0 0 1
+device=none
+T 46300 45200 5 10 0 0 0 0 1
+net=V_BAT:1
+T 46100 45350 5 6 1 1 0 0 1
+value=V_BAT
 }
