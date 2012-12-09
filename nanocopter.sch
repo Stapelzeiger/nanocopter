@@ -491,7 +491,7 @@ device=capacitor
 T 69795 41400 5 10 1 1 0 0 1
 refdes=C7
 T 69795 41000 5 10 1 1 0 0 1
-value=??pF
+value=15pF
 }
 C 69900 41600 1 270 0 capacitor.sym
 {
@@ -502,7 +502,7 @@ device=capacitor
 T 70395 41400 5 10 1 1 0 0 1
 refdes=C8
 T 70295 41000 5 10 1 1 0 0 1
-value=??pF
+value=15pF
 }
 C 69600 41600 1 0 0 ABM10-crystal.sym
 {
@@ -2012,7 +2012,7 @@ device=capacitor
 T 53900 63705 5 10 1 1 270 0 1
 refdes=C33
 T 53900 63305 5 10 1 1 270 0 1
-value=0.1uF
+value=1uF
 }
 C 52100 62500 1 270 0 capacitor.sym
 {
@@ -3198,3 +3198,6 @@ T 68000 45950 5 6 1 1 0 0 1
 value=STATUS-LED
 }
 N 68000 45900 67800 45900 4
+T 70400 40500 9 10 1 0 0 0 2
+2*(C-[2-5])
+->2*(10-3)=14pf
